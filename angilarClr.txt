@@ -1,0 +1,16 @@
+v cmd-to pishem -tova shte generira skeleta za angular
+ng new faqapp
+
+//cd na novosuzdadenata papka i posle instalva bootstrao 4
+npm install bootstrap@4.0.0-alph.6 jquery tether --save
+npm install tova vkluchva dependinsata kum proekta
+v angular.json v styles si dobaviame "../node_modules/bootstrap/dist/css/bootstrap.css"
+pak tam ama v scripts "../node_modules/jquery/dist/jquery.js", "../node_modules/tether/dist/js/tether.js"
+ "../node_modules/bootstrap/dist/js/bootstrap.js"
+ 
+ ng serve
+ //generirame si komponentite ama pred vutreshnia cmd
+ ng g component components/navbar
+ ng g component components/questionList
+ 
+ 

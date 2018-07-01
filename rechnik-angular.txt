@@ -1,0 +1,13 @@
+mkdir imeto
+cd imeto
+code main.ts //taka suzdavame nov fajl
+//sega triabva da go prekarame prez kompilatora na ts, za da go 
+//prevurne ot ts v js
+tsc main.ts //tsc=typescriptcompilator; tva ni suzdava main.js fajl
+ako iskam da si ekzekutna koda pisha v terminala
+node main.js
+
+rechnik
+//{{title}} -> string interpolation
+
+
